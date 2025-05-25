@@ -2,6 +2,10 @@ return {
   "sphamba/smear-cursor.nvim",
 
   opts = {
+
+    -- Smear cursor color
+    cursor_color = "#FFFFFF",
+
     -- Smear cursor when switching buffers or windows.
     smear_between_buffers = true,
 
@@ -20,11 +24,9 @@ return {
     -- See also `vertical_bar_cursor_insert_mode` and `distance_stop_animating_vertical_bar`.
 
     smear_insert_mode = true,
-    stiffness = 0.2,
-    trailing_stiffness = 0.5,
     trailing_exponent = 1,
     hide_target_hack = true,
     gamma = 1,
 
-  },
+  }
 }
